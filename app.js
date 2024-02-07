@@ -7,7 +7,7 @@ let encryptText = document.getElementById('message'); // Textarea donde se regre
 let image = document.getElementById('kid-image'); // imagen Para ocultar
 let title = document.getElementById('title'); // h2 Para ocultar
 let paragraph = document.getElementById('paragraph'); // p Para ocultar
-let caracteresProhibidos = /[A-ZáéíóúÁÉÍÓÚ]/;
+let caracteresProhibidos = /[A-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]/;
 
 // La letra "e" es convertida para "enter"
 // La letra "i" es convertida para "imes"
